@@ -18,14 +18,11 @@ jobs:
         with:
           node-version: 16.14.2
 
-      - name: Setup
-        run: npm i -g @antfu/ni
-
       - name: Install
-        run: nci
+        run: yarn
 
       - name: Lint
-        run: nr lint
+        run: yarn lint
 
   build:
     runs-on: ubuntu-latest
@@ -38,12 +35,9 @@ jobs:
         with:
           node-version: 16.14.2
 
-      - name: Setup
-        run: npm i -g @antfu/ni
-
       - name: Install
-        run: nci
+        run: yarn
 
       - name: Build
-        run: nr build
+        run: yarn build
 

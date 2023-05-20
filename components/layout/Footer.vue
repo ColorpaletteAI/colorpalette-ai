@@ -8,7 +8,7 @@
       <span class="footer-title">Support</span>
       <a href="https://twitter.com/ColorPaletteAI" target="_blank" class="link link-hover">Twitter</a>
       <a href="https://discord.gg/dRcAfjPhub" target="_blank" class="link link-hover">Discord</a>
-      <a href="https://github.com/yk-sgr/colorpalette-ai" target="_blank" class="link link-hover">Github</a>
+      <a href="https://github.com/ColorpaletteAI/colorpalette-ai" target="_blank" class="link link-hover">Github</a>
     </div>
   </footer>
 </template>
